@@ -1,66 +1,11 @@
-## Foundry
+# Canonical Wrapped SPN
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
-
-Foundry consists of:
-
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
-
-## Documentation
-
-https://book.getfoundry.sh/
+Canonical Wrapped SPN [forked from WETH9](https://github.com/gnosis/canonical-weth)
 
 ## Usage
 
-### Build
+	forge build
 
-```shell
-$ forge build
-```
+## Deployed contract addresses
 
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+- Testnet: [0x22b9fa698b68bBA071B513959794E9a47d19214c](https://testnet-explorer.superposition.so/address/0x22b9fa698b68bBA071B513959794E9a47d19214c)
